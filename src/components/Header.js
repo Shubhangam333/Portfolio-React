@@ -17,7 +17,7 @@ const Header = () => {
                     <Wave/>
             <TextBoxDiv variants={titleAnimation}>
                     <motion.h2 variants={titleAnimation} className="heading-text">
-                        Hello,<br className="break"></br> I'm <span className="name">Shubhangam Saxena,</span> I'm a multi-disciplinary and a design-minded Full Stak web and mobile app developer.
+                        Hello,<br className="break"></br> I'm <span className="name">Shubhangam Saxena,</span> I'm a multi-disciplinary and a design-minded Full Stack web and mobile app developer.
                     </motion.h2>
                     <motion.button variants={fade}>
                         <Link className="btn-primary" to='/about'>
