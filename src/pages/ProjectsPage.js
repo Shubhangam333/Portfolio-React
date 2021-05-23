@@ -25,7 +25,7 @@ const ProjectsPage = () => {
         "subtitle" : 'Ecommerce Website',
         "description" : 'An Ecommerce Store with PayPal Payment Integration ',
         "imageUrl" : process.env.PUBLIC_URL + '/projects/greatkart.png',
-        "technologies" : ['React', 'React-Bootstrap', 'Nodejs', 'ExpressJS','MongoDB','React','Redux'],
+        "technologies" : ['Django', 'javascript', 'Html', 'CSS','Python'],
         "githubUrl" : 'https://github.com/Shubhangam333/greatcart',
         "liveUrl":"http://greatkart-env.eba-paky42ke.us-west-2.elasticbeanstalk.com/"
       },
