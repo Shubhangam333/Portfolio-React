@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import { SiGmail } from "react-icons/si";
+import { SiGmail,SiLeetcode } from "react-icons/si";
 import { FaHackerrank } from "react-icons/fa";
 
 import {motion} from 'framer-motion';
@@ -17,6 +17,7 @@ export default function SocialComponent() {
             <a href="mailto:shubhangam27@gmail.com" target="_blank" rel="noreferrer noopener" className="social-icon" ><SiGmail size="40"/></a>
             <a href="https://www.github.com/Shubhangam333" target="_blank" rel="noreferrer noopener" className="social-icon" ><AiFillGithub size="40"/></a>
             <a href="https://www.hackerrank.com/Shubhangam27" target="_blank" rel="noreferrer noopener" className="social-icon" ><FaHackerrank size="40"/></a>
+            <a href="https://leetcode.com/Shubhangam333/" target="_blank" rel="noreferrer noopener" className="social-icon" ><SiLeetcode size="40"/></a>
         </StyledSocialSpan>
         </StyledSocialDiv>
     );

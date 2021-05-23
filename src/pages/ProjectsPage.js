@@ -10,7 +10,26 @@ import { pageAnimation, titleAnimation, fade } from '../animation';
 import ScrollTop from '../components/ScrollTop';
 
 const ProjectsPage = () => {
-    const projects = [{
+    const projects = [
+      {
+        "title" : 'Dev network',
+        "subtitle" : 'Social Networking Website',
+        "description" : 'An Social Networking Website with Complete Functionality',
+        "imageUrl" : process.env.PUBLIC_URL + '/projects/devnetwork.png',
+        "technologies" : ['React', 'Nodejs', 'ExpressJS','MongoDB','Redux','PeerJS'],
+        "githubUrl" : 'https://github.com/Shubhangam333/DevNetwork',
+        "liveUrl":"https://devnetwork5.herokuapp.com/"
+      },
+      {
+        "title" : 'GreatKart',
+        "subtitle" : 'Ecommerce Website',
+        "description" : 'An Ecommerce Store with PayPal Payment Integration ',
+        "imageUrl" : process.env.PUBLIC_URL + '/projects/greatkart.png',
+        "technologies" : ['React', 'React-Bootstrap', 'Nodejs', 'ExpressJS','MongoDB','React','Redux'],
+        "githubUrl" : 'https://github.com/Shubhangam333/greatcart',
+        "liveUrl":"http://greatkart-env.eba-paky42ke.us-west-2.elasticbeanstalk.com/"
+      },
+      {
         "title" : 'Shop Drop',
         "subtitle" : 'Ecommerce Website',
         "description" : 'An Ecommerce Store with PayPal Payment Integration',
@@ -33,7 +52,7 @@ const ProjectsPage = () => {
         "subtitle" : 'Social Networking Site',
         "description" : 'Social Networking Site with various User functionalities',
         "imageUrl" : process.env.PUBLIC_URL + '/projects/portfolio-3.png',
-        "technologies" : ['React', 'Nodejs', 'ExpressJS','MongoDB','Redux','React-Context','Materialise-Css'],
+        "technologies" : ['Django', 'javascript', 'Html', 'CSS','Python'],
         "githubUrl" : 'https://github.com/Shubhangam333/GingerBird',
         "liveUrl":"https://gingerbird333.herokuapp.com"
       },
@@ -66,13 +85,13 @@ const ProjectsPage = () => {
         "liveUrl":"https://hidden-basin-98879.herokuapp.com/"
       },
       {
-        "title" : 'Hospital Management System',
-        "subtitle" : 'credentials - patient : vincent@gmail.com/Test@123 ,Doctor:simon@gmail.com/password ',
-        "description" : 'Online Hospital Management System for patient,Doctors',
-        "imageUrl" : process.env.PUBLIC_URL + '/projects/hms.png',
+        "title" : 'Restaurant Management System',
+        "subtitle" : 'Restaurant Management System with all functionality',
+        "description" : 'Online Restaurant Managment System',
+        "imageUrl" : process.env.PUBLIC_URL + '/projects/restaurant-system.png',
         "technologies" : ['PHP', 'javascript', 'Html', 'CSS','AJAX'],
-        "githubUrl" : 'https://github.com/Shubhangam333/Hospital-System',
-        "liveUrl":"http://hospitalmanagement.infinityfreeapp.com/hms/index.php"
+        "githubUrl" : 'https://github.com/Shubhangam333/restaurant-management-system',
+        "liveUrl":""
       }
     ];
     return(
