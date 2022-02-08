@@ -12,6 +12,15 @@ import ScrollTop from '../components/ScrollTop';
 const ProjectsPage = () => {
     const projects = [
       {
+        "title" : 'SlickEcom',
+        "subtitle" : 'Ecommerce Website',
+        "description" : 'An Ecommerce Store with GraphicalUserInterface ',
+        "imageUrl" : process.env.PUBLIC_URL + '/projects/slickecom.png',
+        "technologies" : ['React', 'NodeJS', 'Html', 'CSS','Graph.js'],
+        "githubUrl" : 'https://github.com/Shubhangam333/slickecom',
+        "liveUrl":"https://slickecom.herokuapp.com/"
+      },
+            {
         "title" : 'Dev network',
         "subtitle" : 'Social Networking Website',
         "description" : 'An Social Networking Website with Complete Functionality',
@@ -19,15 +28,6 @@ const ProjectsPage = () => {
         "technologies" : ['React', 'Nodejs', 'ExpressJS','MongoDB','Redux','PeerJS'],
         "githubUrl" : 'https://github.com/Shubhangam333/DevNetwork',
         "liveUrl":"https://devnetwork5.herokuapp.com/"
-      },
-      {
-        "title" : 'GreatKart',
-        "subtitle" : 'Ecommerce Website',
-        "description" : 'An Ecommerce Store with PayPal Payment Integration ',
-        "imageUrl" : process.env.PUBLIC_URL + '/projects/greatkart.png',
-        "technologies" : ['Django', 'javascript', 'Html', 'CSS','Python'],
-        "githubUrl" : 'https://github.com/Shubhangam333/greatcart',
-        "liveUrl":"http://greatkart-env.eba-paky42ke.us-west-2.elasticbeanstalk.com/"
       },
       {
         "title" : 'Shop Drop',
@@ -73,16 +73,6 @@ const ProjectsPage = () => {
         "technologies" : ['React', 'javascript', 'Html', 'CSS', 'Redux','Auth0','ContextAPI'],
         "githubUrl" : 'https://github.com/Shubhangam333/ComfySloth',
         "liveUrl":"https://shubhangam333-comfysloth-574670.netlify.app"
-      },
-
-      {
-        "title" : 'CarZone',
-        "subtitle" : 'Django App ',
-        "description" : 'Car Sharing website develop using Django',
-        "imageUrl" : process.env.PUBLIC_URL + '/projects/carzone.png',
-        "technologies" : ['Django', 'javascript', 'Html', 'CSS'],
-        "githubUrl" : 'https://github.com/Shubhangam333/carzone',
-        "liveUrl":"https://hidden-basin-98879.herokuapp.com/"
       },
       {
         "title" : 'Restaurant Management System',
